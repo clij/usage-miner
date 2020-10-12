@@ -1,0 +1,8 @@
+title: CLIJx usage miner
+logo: /images/clijx_logo.png
+description: Mining usage of CLIJ operations for lowering the entrance burden to new users
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-redirect-from
