@@ -12,7 +12,7 @@ information is extracted from their macros as the [CLIJx usage miner is open sou
 
 ## How to extract usage statistics
 Download and install [Fiji](https://fiji.sc/), activate the [CLIJ](https://clij.github.io/installation) update site 
-and the download [CLIJx usage-miner plugin](https://github.com/clij/usage-miner/releases/download/0.1.0.0/clijx-usage-analyser_-0.1.0.0.jar) 
+and the download [CLIJx usage-miner plugin](https://github.com/clij/usage-miner/releases/download/0.1.0.1/clijx-usage-analyser_-0.1.0.1.jar) 
 and put the jar file in the '/plugins/' directory of your Fiji.
 
 Start Fiji, and execute the menu `Plugins > ImageJ on GPU (CLIJx) > Options > CLIJ Usage Miner`. Please select a folder

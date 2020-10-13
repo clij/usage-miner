@@ -15,7 +15,7 @@
 	<groupId>net.haesleinhuepf</groupId>
 	<!-- note: the artifactId must contain an underscore _ to make ImageJ handle it correctly.-->
 	<artifactId>clijx-usage-analyser_</artifactId>
-	<version>0.1.0.0</version>
+	<version>0.1.0.1</version>
 
 
 	<name>clijx-usage-analyser</name>
@@ -99,6 +99,10 @@
 		<dependency>
 			<groupId>net.haesleinhuepf</groupId>
 			<artifactId>clij_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.haesleinhuepf</groupId>
+			<artifactId>clij2_</artifactId>
 		</dependency>
 	</dependencies>
 
