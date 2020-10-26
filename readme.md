@@ -20,11 +20,14 @@ of imagej macros which use CLIJ. Such a file will open up:
  
 ![Image](images/screenshot.png)
 
-Please submit this file via email to rhaase@mpi-cbg.de. By submitting the file you agree that this file may become part of future CLIJ 
+Please submit this file via email to rhaase@mpi-cbg.de. 
+If you prefer to submit this file in public, fully transparently, feel free to submit the file as new `...suggestions.config` file to [this directory](https://github.com/clij/assistant/tree/master/src/main/Resources).
+By submitting the file you agree that this file may become part of future CLIJ 
 releases shared under this [BSD3](https://github.com/clij/clij2/blob/master/license.txt) license. 
 In exchange you will find your name in the list of contributors in the acknowledgements section of the [website](https://clij.github.io/) 
 and the CLIJ expert system related publication. 
 If you want your affiliation to be mentioned correctly, please specify it in the email.
+
 
 Thanks for your contribution!
 
