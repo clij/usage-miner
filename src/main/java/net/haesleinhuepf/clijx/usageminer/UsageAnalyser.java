@@ -18,23 +18,30 @@ public class UsageAnalyser {
 
     public UsageAnalyser(String... macroPaths) {
         for (String macroPath : macroPaths) {
-            File folder = new File(macroPath);
-            if (folder.exists()) {
+            parseFolder(macroPath);
+        }
+    }
 
-                for (File file : folder.listFiles()) {
-                    if (file.getName().endsWith(".ijm")) {
-                        try {
-                            //System.out.println("Parsing " + file);
-                            parseFile(file);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                        //break;
+    private void parseFolder(String macroPath) {
+        File folder = new File(macroPath);
+        if (folder.exists()) {
+
+            for (File file : folder.listFiles()) {
+                if (file.isDirectory()) {
+                    parseFolder(file.toString());
+                } else if (file.getName().endsWith(".ijm")) {
+                    try {
+                        System.out.println("Parsing " + file);
+                        parseFile(file);
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
+                    //break;
                 }
             }
         }
     }
+
 
     private void parseFile(File file) throws IOException {
         String content = new String(Files.readAllBytes(file.toPath()));
